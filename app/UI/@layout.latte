@@ -2,9 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-
-	<title>{ifset title}{include title|stripHtml} | {/ifset}Nette Web</title>
+	<title>Minimal Web Project</title>
 </head>
 
 <body>
@@ -12,8 +10,6 @@
 
 	{include content}
 
-	{block scripts}
 	<script src="https://unpkg.com/nette-forms@3/src/assets/netteForms.js"></script>
-	{/block}
 </body>
 </html>
